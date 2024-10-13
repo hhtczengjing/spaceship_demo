@@ -1,0 +1,33 @@
+[
+    {
+        "group_id": "group.com.yuxiaoshu.demo",
+        "name": "demo",
+        "apps": [
+            {
+                "bundle_id": "com.yuxiaoshu.demo",
+                "name": "demo",
+                "mobileprovision": "demo",
+                "capabilities": [
+                    "app_group",
+                    "push_notification"
+                ]
+            },
+            {
+                "bundle_id": "com.yuxiaoshu.demo.notificationservice",
+                "name": "demo NotificationService",
+                "mobileprovision": "demoNotificationService",
+                "capabilities": [
+                    "app_group"
+                ]
+            },
+            {
+                "bundle_id": "com.yuxiaoshu.demo.liveactivities",
+                "name": "demo LiveActivities",
+                "mobileprovision": "demoLiveActivities",
+                "capabilities": [
+                    "app_group"
+                ]
+            }
+        ]
+    }
+]

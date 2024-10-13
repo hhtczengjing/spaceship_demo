@@ -1,0 +1,12 @@
+[
+    {
+        "name": "device01",
+        "udid": "00000000-0000000000000000",
+        "status": "enabled"
+    },
+    {
+        "name": "device02",
+        "udid": "00000000-0000000000000000",
+        "status": "disabled"
+    }
+]
